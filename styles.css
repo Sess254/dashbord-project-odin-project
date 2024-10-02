@@ -12,10 +12,12 @@
 
 body {
     line-height: 1.5;
+    font-family: "Roboto", sans-serif;
 }
 
 img {
     display: block;
+    width: 100%;
 }
 
 input, 
@@ -44,7 +46,7 @@ select {
 
 .aside {
     grid-area: side;
-    background-color: #1992D4;
+    background-color: #1A93D4;
 
 }
 
@@ -52,4 +54,57 @@ select {
     grid-area: main;
     background-color: #E2E8F0;
 }
+
+input {
+    border-radius: 20px;
+    background-color: #E2E8F0;
+    border: none;
+    width: 75%;
+    padding: .325em;
+}
+
+.search-container,
+.notifications {
+    padding: 1.5em 0 0 1.5em;
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+}
+
+.prof-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.handle-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.fa-bell,
+.fa-magnifying-glass {
+    font-size: 1.2rem;
+    margin-left: .6em;
+}
+
+
+.prof-name {
+    font-size: 1rem;
+}
+
+.header-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 3em;
+}
+
+.fa-bell,
+.fa-magnifying-glass,
+.prof-pic {
+    cursor: pointer;
+}
+
+
 
