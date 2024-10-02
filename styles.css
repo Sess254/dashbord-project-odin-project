@@ -20,6 +20,11 @@ img {
     width: 100%;
 }
 
+header {
+    margin-left: 1em;
+
+}
+
 input, 
 button,
 textarea,
@@ -59,7 +64,7 @@ input {
     border-radius: 20px;
     background-color: #E2E8F0;
     border: none;
-    width: 75%;
+    width: 70%;
     padding: .325em;
 }
 
@@ -68,7 +73,7 @@ input {
     padding: 1.5em 0 0 1.5em;
     display: flex;
     align-items: center;
-    gap: 1.5em;
+    gap: 1.2em;
 }
 
 .prof-pic {
@@ -86,7 +91,6 @@ input {
 .fa-bell,
 .fa-magnifying-glass {
     font-size: 1.2rem;
-    margin-left: .6em;
 }
 
 
@@ -97,13 +101,50 @@ input {
 .header-container {
     display: grid;
     grid-template-columns: 3fr 1fr;
-    gap: 3em;
+    
+}
+
+.handle-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    margin-top: 3.5em;
+    margin-left: 1.7em;
 }
 
 .fa-bell,
 .fa-magnifying-glass,
-.prof-pic {
+.prof-pic,
+button {
     cursor: pointer;
+}
+
+.handle {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+span {
+    font-size: 1rem;
+}
+
+.handle-name {
+    font-size: 1.5rem;
+}
+
+.handle-btns {
+    display: flex;
+    gap: 1.5em;
+}
+
+button {
+    background-color: #1A93D4;
+    color: #ffffff;
+    padding: .6em 2em;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
 }
 
 
