@@ -147,5 +147,33 @@ button {
     border-radius: 20px;
 }
 
+aside {
+    color: white;
+}
+
+.icon-head {
+    display: grid;
+    grid-template-columns: repeat(2, 40px);
+    gap: 1.5em;
+    align-items: center;
+    margin: 1.2em 0 2em 1.5em;
+}
+
+.icon-label {
+    display: grid;
+    grid-template-columns: repeat(2, 30px);
+    align-items: center;
+    gap: 1.5em;
+    margin: 1.2em 0 1.5em 2em;
+    cursor: pointer;
+}
+
+.fa-table-columns {
+    font-size: 3rem;
+}
+
+.utility {
+    margin-top: 3em;
+}
 
 
