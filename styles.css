@@ -36,12 +36,13 @@ select {
     display: grid;
     height: 100vh;
     grid-template-columns: 300px 3fr;
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
     grid-template-areas: 
         "side head"
         "side main"
         "side main"
-        "side main" ;
+        "side main"
+        "side main";
 }
 
 .header {
@@ -59,7 +60,7 @@ select {
     grid-area: main;
     background-color: #E2E8F0;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2fr 550px;
     grid-template-areas: 
         "proj side";
 }
@@ -198,8 +199,9 @@ li {
 .side-dash {
     grid-area: side;
     display: grid;
-    grid-template-columns: 450px;
-    margin: 1.2em 0 1em 1em;
+    grid-template-columns: 430px;
+    margin: 1.2em 0 2em 2em;
+    padding: 0 2em;
 }
 
 .side-title {
@@ -218,13 +220,13 @@ p {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 200px);
-    gap: 1em;
+    gap: 2em;
 }
 
 .box {
     background-color: #ffffff;
     border-radius: 5px;
-    padding: 2em;
+    padding: 3em;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     border-left: 10px solid #F08629;
 }
